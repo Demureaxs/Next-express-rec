@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header-clip {
+  clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+  background-image: url('https://images.pexels.com/photos/163143/sackcloth-sackcloth-textured-laptop-ipad-163143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
+  background-color: black;
+  background-position: center;
+  background-blend-mode: screen;
+}
